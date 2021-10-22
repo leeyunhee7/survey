@@ -135,7 +135,7 @@
 .illust_bus .circle{width:8px; height:8px; background:url(../images/wheel.svg) no-repeat ;position: absolute; left:-12px; top:20px; animation: rota 1s infinite linear; }
 .illust_bus .circle:nth-child(2){ left:14px;} 
 .illust_bus .circle::before{content: '';  width: 3px; height: 3px; display: block; position: absolute;top: 50%; left: 50%; transform: translate(-50%,-50%);background-color: #999; border-radius: 50%;}
-
+.visual .m_yes br{display:none !important}
 
     
  /*keyframes*/
@@ -239,7 +239,7 @@
 .quastion_bx .quastion_bar{border-radius:15px;}
 .progressbarbx{width:100%; }
 .visual_sub .tit br{display:block !important;}
-
+.visual .m_yes br{display:block !important}
 }
 
 
