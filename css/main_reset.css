@@ -68,7 +68,7 @@ a {outline : none;box-sizing:border-box;}
 a img {outline : none;}
 img {border : 0;}
 
-address, caption, em, var{
+address, caption, em, var, i{
 font-style:normal;
 font-weight:normal;
 }
@@ -222,9 +222,11 @@ input[type=text],select {
 	color: #bdbdbd;
 	
   }
-  /* input[type=text]:focus {
-	background-color: lightblue;
+  /*input[type=text]:focus {
+	border:none;
   } */
+
+  input:focus { outline: none; }
 
 
 

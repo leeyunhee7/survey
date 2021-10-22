@@ -226,12 +226,24 @@
 .visual_sub .tit{z-index:1;width:100%;margin-top:15px; font-size:18px;font-weight:500;}
 .visual_sub .tit span{font-size:16px;font-weight:400}
 .visual_sub .smile_img_m{display:block;}
-
+.basic_info_bx{margin:0px 32px 30px 32px;}
 .bx1{width:100%;}
 .bx2{width:100%; }
+.tit1{margin-bottom:10px !important}
 .th_tit{width:100%;}
+.th_tit span.rb{background:#ffffff;}
+.th_tit span.db{background:#ffffff;}
+.th_tit span em{display:block;text-align:left;padding-top:10px;color:#1B1926;}
+.th_tit span em i{box-shadow: inset 0 -6px 0 #B7DDF3;line-height:26px;font-weight:500;font-size:14px;}
+
 .td_cont{width:100%; }
 .td_cont3{width:100%;}
+.td_cont span{width:100%;border:1px solid #cccccc;padding-left:10px;}
+.td_cont3 span{width:100%;border:1px solid #cccccc;padding-left:10px;}
+.td_cont31 span{width:100%;border:1px solid #cccccc;padding-left:10px;}
+.td_cont span em{padding-top:5px;}
+.td_cont span em.backp{padding-top:10px;}
+.td_cont31 span em{padding-top:5px;}
 .th_tit span em.pd5{padding-top:10px}
 .th_tit span em br{display:none !important;}
 .sn_logo span{background-size:158px 26px;}
