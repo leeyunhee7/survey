@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <title>Kuesioner Terminal (Target: Calon Penumpang)</title>
+    <meta name="description" content="Kuesioner Terminal (Target: Calon Penumpang)">
+    <link rel="stylesheet" href="css/main_layout.css">
+    <link rel="stylesheet" href="css/main_reset.css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=NotoSansKR' rel='stylesheet' type='text/css'>
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="inner_p">
+            <div class="visual">
+                <div class="bluebx_m">
+                    <h1><img src="images/logo.svg"></h1>
+                    <div class="tit">Kuesioner Terminal<br><span>(Target: Calon Penumpang)</span></div>
+                </div>
+                <div class="txt">Survei ini mengkaji perkembangan transportasi umum bagi warga negara Indonesia.<br>
+                    Terima kasih telah berpartisipasi dalam memperbaiki sarana transportasi umum.</div>
+                <div class="smile_img_m"><img src="images/visual_bg_m.png"></div>
+            </div>
+
+            <div class="tit1">Identitas Responden</div>
+            <div class="basic_info_bx">
+                <div class="bx1">
+                    <div class="th_tit"><span class="rb"><em class="pd5">Tanggal Survei<br>(Waktu Survei)</em></span></div>
+                    <div class="td_cont">
+                        <span><em><input type="text" id="date_time" name="date_time" placeholder="Please write DATE/TIME"></em></span>
+                    </div>
+                    
+                    <div class="th_tit"><span class="rb"><em>Lama Bekerja</em></span></div>
+                    <div class="td_cont"><span><em><input type="text" id="work" name="work"  placeholder="Year of work"></em></span></div>
+                    
+                </div>
+                <div class="bx1">
+                    <div class="th_tit"><span class="rb"><em>Nama Terminal</em></span></div>
+                    <div class="td_cont">
+                        <span><em><input type="text" id="terminal_name" name="terminal_name" placeholder="Please write terminal"></em></span>
+                    </div>
+                    
+                    <div class="th_tit"><span class="rb"><em class="pd5">Departemen <br>dan Jabatan</em></span></div>
+                    <div class="td_cont"><span><em><input type="text" id="affiliation" name="affiliation" placeholder="Please write down your affiliation"></em></span></div>
+                    
+                </div>
+            </div>
+            
+            <div class="quastion_bx">
+                <div class="quastion_type1">
+                    <div class="quastion_bar"><span><em>1</em></span><i></i>Berapa lama waktu yang dibutuhkan untuk melayani seorang calon penumpang?</div>
+                    <div class="list">
+
+                        <ul>
+                            <li><input class="checkbx" type="checkbox" id="q1_a1" name="q1">
+                                <label for="q1_a1">dalam 5 menit</label>
+                            </li>
+                            <li> <input class="checkbx" type="checkbox" id="q1_a2" name="q1">
+                                <label for="q1_a2"> 5 menit - 10 menit</label>
+                            </li>
+                            <li><input class="checkbx" type="checkbox" id="q1_a3" name="q1">
+                                <label for="q1_a3">10 menit – 15 menit</label>
+                            </li>
+                            <li> <input class="checkbx" type="checkbox" id="q1_a4" name="q1">
+                                <label for="q1_a4">15 menit – 20 menit</label>
+                            </li>
+                            <li><input class="checkbx" type="checkbox" id="q1_a5" name="q1">
+                                <label for="q1_a5"> lebih dari 20 menit</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="notebx">
+                        <div class="illust1"></div>
+                        <div class="illust_bus"><img src="images/bus_body.svg">
+                            <div class="circle"> </div>
+                            <div class="circle"> </div>
+                        </div>
+                        <p>Catatan</p>
+                        <input type="text" name="" value="" class="note" placeholder="Catatan">
+                    </div>
+                </div>
+                <div class="quastion_type2">
+                    <div class="quastion_bar clr_o"><span><em>2</em></span><i class="clr_o_img"></i>Menurut Anda, bagaimana tingkat keramaian loket?</div>
+                    <div class="list">
+                        <ul>
+                            <li><input class="checkbx" type="checkbox" id="q2_a1" name="q2">
+                                <label for="q2_a1">Sangat Ramai (90~100%)</label>
+                            </li>
+                            <li> <input class="checkbx" type="checkbox" id="q2_a2" name="q2">
+                                <label for="q2_a2">Agak Ramai (70~80%)</label>
+                            </li>
+                            <li><input class="checkbx" type="checkbox" id="q2_a3" name="q2">
+                                <label for="q2_a3">Sedang (50~60%)</label>
+                            </li>
+                            <li> <input class="checkbx" type="checkbox" id="q2_a4" name="q2">
+                                <label for="q2_a4">Agak Lengang (30~40%)</label>
+                            </li>
+                            <li><input class="checkbx" type="checkbox" id="q2_a5" name="q2">
+                                <label for="q2_a5">Sangat Lengang (10~20%)</label>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                   
+                    <div class="notebx">
+                        <p>Catatan</p>
+                        <input type="text" name="" value="" class="note" placeholder="Catatan">
+                    </div>
+                </div>
+                <div class="quastion_type1">
+                    <div class="quastion_bar"><span><em>3</em></span><i></i>Menurut Anda, layanan apa yang memakan waktu paling lama ketika karyawan loket melayani calon penumpang?</div>
+                    <div class="list">
+                        <ul>
+                            <li><input class="checkbx" type="checkbox" id="q3_a1" name="q3">
+                                <label for="q3_a1">Layanan pemberian informasi jadwal bus</label>
+                            </li>
+                            <li> <input class="checkbx" type="checkbox" id="q3_a2" name="q3">
+                                <label for="q3_a2">Layanan penjualan tiket bus</label>
+                            </li>
+                            <li><input class="checkbx" type="checkbox" id="q3_a3" name="q3">
+                                <label for="q3_a3">Layanan pembayaran</label>
+                            </li>
+                            <li> <input class="checkbx" type="checkbox" id="q3_a4" name="q3">
+                                <label for="q3_a4">Layanan pengembalian pembayaran</label>
+                            </li>
+                            <li> <input class="checkbx" type="checkbox" id="q3_a5" name="q3">
+                                <label for="q3_a5">Layanan pengubahan jadwal tiket bus</label>
+                            </li>
+
+                        </ul>
+                    </div>
+                   
+                    <div class="notebx">
+
+                        <div class="illust2"></div>
+                        <div class="illust_bus"><img src="images/bus_body.svg">
+
+                            <div class="circle"> </div>
+                            <div class="circle"> </div>
+
+
+                        </div>
+                        <p>Catatan</p>
+                        <input type="text" name="" value="" class="note" placeholder="Catatan">
+
+                       
+                    </div>
+                </div>
+                <div class="quastion_type2">
+                    <div class="quastion_bar clr_o"><span><em>4</em></span><i class="clr_o_img"></i>Menurut Anda, apakah sistem operasi dapat menganalisis jumlah penjualan tiket dalam bentuk data statistik dengan mudah?</div>
+                    <div class="list">
+                        <ul>
+                            <li><input class="checkbx" type="checkbox" id="q4_a1" name="q4">
+                                <label for="q4_a1">Sangat mudah</label>
+                            </li>
+                            <li> <input class="checkbx" type="checkbox" id="q4_a2" name="q4">
+                                <label for="q4_a2">Agak mudah</label>
+                            </li>
+                            <li><input class="checkbx" type="checkbox" id="q4_a3" name="q4">
+                                <label for="q4_a3">Sedang</label>
+                            </li>
+                            <li> <input class="checkbx" type="checkbox" id="q4_a4" name="q4">
+                                <label for="q4_a4">Cukup sulit</label>
+                            </li>
+                            <li class="etcbx"> <input class="checkbx" type="checkbox" id="q4_a6" name="q4">
+                                <label for="q4_a6">Sangat sulit</label><span><input type="text" name="" value="" class="etc" placeholder="Alasan:"></span>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="notebx">
+                        <p>Catatan</p>
+                        <input type="text" name="" value="" class="note" placeholder="Catatan">
+                    </div>
+                </div>
+            </div>
+            <div class="btnbx"><button type="button" onclick="location.href='survey_admin.html'" class="ltbtn"></button><button type="button" onclick="location.href='survey_sub_admin.html'" class="rtbtn"></button></div>
+
+            <!-- <div class="btnbx"><button type="button" class="submitbtn" onclick="window.open('');"></button></div> -->
+            <div class="submitbx"><button type="submit" class="submitbtn">Submit</button></div>
+            <div class="sn_logo"><span></span></div>
+            <div class="progressbarbx">
+                <p><em>30%</em></p>
+            </div>
+        </div>
+
+
+</body>
+
+</html>
