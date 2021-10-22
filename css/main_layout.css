@@ -45,7 +45,7 @@
 /* 1200px / 992px / 768px / 576px display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex;*/
 /*all device 공통*/
 .wrapper{width: 100%;font-size:14px;color:#1B1926;}
-.tit1{margin:30px 32px 20px;font-size:16px;font-weight:500;}
+.tit1{margin:30px 32px 20px;font-size:16px;font-weight:700;}
 .basic_info_bx{margin:0px 32px 50px 32px;}
 .bx1{margin-bottom:3px;}
 .bx2{margin-bottom:3px;}
@@ -162,7 +162,7 @@
 .td_cont{width:30%; }
 .td_cont3{width:80%;}
 .td_cont31{width:80%;}
-.progressbarbx{width:999px;margin:0 auto }
+.progressbarbx{width:999px;margin:0 auto ;z-index: 9999;}
 
 }
 
