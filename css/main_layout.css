@@ -60,12 +60,13 @@
 .basic_info_bx{margin:0px 32px 50px 32px;}
 .bx1{margin-bottom:3px;}
 .bx2{margin-bottom:3px;}
-.th_tit{margin-right:10px}
+.th_tit{margin-right:10px;}
 .th_tit span{display:inline-block;height:40px;text-align:center;border-radius:5px;width:100%;}
 .th_tit span.rb{background:#43A6E2;}
 .th_tit span.db{background:#03588C;}
 .th_tit span em{display:block;padding-top:10px;color:#ffffff;font-size:14px;}
 .th_tit span em.pd5{padding-top:5px}
+.td_cont{margin-bottom:3px;}
 .td_cont span{display:inline-block;min-height:40px;border-bottom:1px solid #cccccc;width:95%;}
 .td_cont31 span{display:inline-block;min-height:40px;border-bottom:1px solid #cccccc;width:98.5%;}
 .td_cont3 span{display:inline-block;min-height:80px;border-bottom:1px solid #cccccc;width:98.5%;}
