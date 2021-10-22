@@ -73,7 +73,7 @@
 .td_cont span em{display:block;padding-top:10px}
 .td_cont3 span em{display:block;padding-top:10px}
 .td_cont31 span em{display:block;padding-top:10px}
-.tit2{position:relative;margin:0 32px;font-size:16px;font-weight:500;padding-left:20px;}
+.tit2{position:relative;margin:0 32px;font-size:16px;font-weight:700;padding-left:20px;}
 .tit2::before {content: '';
     position:absolute;
     top:4px;
