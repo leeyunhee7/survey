@@ -151,7 +151,10 @@
         0%{transform: rotateZ(1);}
         100%{transform: rotateZ(-360deg);}
         }  
-  
+
+
+.dk{font-style:italic;}
+
 
 /*pc - 1000이상*/
 @media all and (min-width:1000px) { 
