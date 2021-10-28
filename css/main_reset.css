@@ -228,5 +228,14 @@ input[type=text],select {
 
   input:focus { outline: none; }
 
+  input.note1[type=text] {
+    width: 100%;
+    padding: 10px 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background:#ffffff;
+    }
+
 
 
