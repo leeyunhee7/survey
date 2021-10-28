@@ -118,7 +118,7 @@
 .quastion_bx .list li.etcbx{padding-bottom:45px;}
 .quastion_bx .list li span{position:absolute;display:block;width:80%;height:40px;top:30px;left:30px;margin-top:10px;}
 .progressbarbx{height:30px;background:#cccccc;position:fixed;bottom:0;z-index:99 }
-.progressbarbx p{width:30%;background:#03588C;line-height:30px;}
+.progressbarbx p{width:30%;background:#03588C;line-height:30px;min-width:70px;}
 .progressbarbx p em{display:inline-block;color:#ffffff;padding-left:30px}
 .sn_logo{display:flex;justify-content:center;margin:70px 0 50px;display: -webkit-box ; display: -moz-box ; display: -ms-flexbox;display: -webkit-flex;}
 .sn_logo span{width:182px;height:30px;background:url(../images/sn_logo.svg) no-repeat center;background-size:182px auto;}
